@@ -16,3 +16,10 @@ const askSomething=()=>{
         alert('kno taka nai aile ay noile thak')
     }
 }
+
+const getUserInfo=()=>{
+    const info = prompt('Tell us your bf name');
+    if(!!info){
+        console.log('welcome here', info);
+    }
+}
